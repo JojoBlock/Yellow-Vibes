@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Yellow Vibes — luxury Korean-inspired beauty for your soft girl era. Butter yellow glow, clean girl aesthetic.">
+  <title>Yellow Vibes | Luxury Korean Beauty</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/logo/logo.svg" type="image/svg+xml">
+</head>
+<body>
+  <div class="glow-orb glow-orb--1" aria-hidden="true"></div>
+  <div class="glow-orb glow-orb--2" aria-hidden="true"></div>
+
+  <header class="header" id="top">
+    <nav class="nav container">
+      <a href="#top" class="nav__logo">
+        <img src="assets/logo/yellow_vibes.png" alt="Yellow Vibes" width="240" height="120">
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#products">Shop</a></li>
+        <li><a href="#testimonials">Love</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#products" class="nav__cta">Shop Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero__bg">
+        <img src="assets/logo/yellow_vibes.png" alt="" class="hero__img" width="1920" height="1080">
+      </div>
+      <div class="hero__overlay"></div>
+      <div class="container hero__content fade-up">
+        <p class="hero__eyebrow">Seoul-inspired · Clean girl approved</p>
+        <h1 class="hero__title">Glow in your<br><em>yellow era</em></h1>
+        <p class="hero__text">Soft Korean beauty rituals wrapped in butter yellow luxury. Curated for Pinterest girls who live for the glow.</p>
+        <div class="hero__actions">
+          <a href="#products" class="btn btn--primary">Discover Glow</a>
+          <a href="#collections" class="btn btn--glass">View Collections</a>
+        </div>
+        <div class="hero__badges">
+          <span class="badge">Cruelty Free</span>
+          <span class="badge">Vegan Friendly</span>
+          <span class="badge">K-Beauty</span>
+        </div>
+      </div>
+      <div class="hero__scroll" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about section" id="about">
+      <div class="container about__grid">
+        <div class="about__visual fade-up">
+          <div class="about__frame glass">
+            <img src="assets/hero/about-brand.svg" alt="Yellow Vibes skincare flatlay" width="600" height="700">
+          </div>
+          <div class="about__float-card glass floating">
+            <span class="about__stat">98%</span>
+            <span class="about__stat-label">would repurchase</span>
+          </div>
+        </div>
+        <div class="about__copy fade-up fade-up--delay">
+          <p class="section__eyebrow">Our Story</p>
+          <h2 class="section__title">Beauty that feels like <em>sunshine</em></h2>
+          <p class="about__p">Yellow Vibes was born from a love of Korean skincare rituals and the soft, dreamy aesthetic of a perfect Pinterest board. We blend science-backed formulas with a feminine, Gen Z–forward experience.</p>
+          <p class="about__p">Every product is designed to layer seamlessly — lightweight textures, dewy finishes, and that unmistakable butter-yellow glow.</p>
+          <ul class="about__features">
+            <li>
+              <span class="about__icon" aria-hidden="true">✦</span>
+              <div>
+                <strong>Clean formulas</strong>
+                <p>No harsh sulfates. Skin-first ingredients.</p>
+              </div>
+            </li>
+            <li>
+              <span class="about__icon" aria-hidden="true">✦</span>
+              <div>
+                <strong>Slow beauty ritual</strong>
+                <p>Mindful routines for your soft girl mornings.</p>
+              </div>
+            </li>
+            <li>
+              <span class="about__icon" aria-hidden="true">✦</span>
+              <div>
+                <strong>Pinterest packaging</strong>
+                <p>Shelfie-worthy from unboxing to last drop.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Collections -->
+    <section class="collections section" id="collections">
+      <div class="container">
+        <div class="section__header fade-up">
+          <p class="section__eyebrow">Curated For You</p>
+          <h2 class="section__title">Shop by <em>collection</em></h2>
+        </div>
+        <div class="collections__grid">
+          <article class="collection-card glass fade-up">
+            <div class="collection-card__img">
+              <img src="assets/collections/glow-ritual.svg" alt="Glow Ritual collection" width="400" height="500">
+            </div>
+            <div class="collection-card__body">
+              <h3>Glow Ritual</h3>
+              <p>AM essentials for dewy, glass-skin mornings.</p>
+              <a href="#products" class="collection-card__link">Explore →</a>
+            </div>
+          </article>
+          <article class="collection-card glass fade-up fade-up--delay">
+            <div class="collection-card__img">
+              <img src="assets/collections/sunset-skin.svg" alt="Sunset Skin collection" width="400" height="500">
+            </div>
+            <div class="collection-card__body">
+              <h3>Sunset Skin</h3>
+              <p>Warm tones & SPF for golden hour confidence.</p>
+              <a href="#products" class="collection-card__link">Explore →</a>
+            </div>
+          </article>
+          <article class="collection-card glass fade-up fade-up--delay-2">
+            <div class="collection-card__img">
+              <img src="assets/collections/cloud-care.svg" alt="Cloud Care collection" width="400" height="500">
+            </div>
+            <div class="collection-card__body">
+              <h3>Cloud Care</h3>
+              <p>PM hydration & masks for pillow-soft skin.</p>
+              <a href="#products" class="collection-card__link">Explore →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section class="products section" id="products">
+      <div class="container">
+        <div class="section__header fade-up">
+          <p class="section__eyebrow">The Edit</p>
+          <h2 class="section__title">Bestselling <em>glow</em></h2>
+          <p class="section__sub">Ten icons. Infinite soft-girl moments.</p>
+        </div>
+        <div class="products__grid">
+
+          <!-- Product 1 -->
+          <article class="product-card glass fade-up" data-product>
+            <div class="product-slider" data-slider>
+              <div class="product-slider__track">
+                <div class="product-slider__slide is-active">
+                  <img src="assets/img/01_Korean Hair Claw Clips Collection/P1_Butter Bloom Claw Clip/side1.png" alt="Honey Glow Cleanser view 1" loading="lazy">
+                </div>
+                <div class="product-slider__slide">
+                  <img src="assets/img/01_Korean Hair Claw Clips Collection/P1_Butter Bloom Claw Clip/side2.png" alt="Honey Glow Cleanser view 2" loading="lazy">
+                </div>
+                <div class="product-slider__slide">
+                  <img src="assets/img/01_Korean Hair Claw Clips Collection/P1_Butter Bloom Claw Clip/side1.png" alt="Honey Glow Cleanser view 3" loading="lazy">
+                </div>
+              </div>
+              <button class="product-slider__arrow product-slider__arrow--prev" data-prev aria-label="Previous image">‹</button>
+              <button class="product-slider__arrow product-slider__arrow--next" data-next aria-label="Next image">›</button>
+              <div class="product-slider__dots" data-dots></div>
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Honey Glow Cleanser</h3>
+              <p class="product-card__desc">Cloud-soft foam with manuka honey for a bouncy, never-tight cleanse.</p>
+              <p class="product-card__price" data-price="28">$28.00</p>
+              <button class="btn btn--buy" data-buy data-name="Honey Glow Cleanser" data-image="assets/img/01_Korean Hair Claw Clips Collection/P1_Butter Bloom Claw Clip/side1.png" data-price-val="28">Buy Now</button>
+            </div>
+          </article>
+
+          <!-- Product 2 -->
+          <article class="product-card glass fade-up" data-product>
+            <div class="product-slider" data-slider>
+              <div class="product-slider__track">
+                <div class="product-slider__slide is-active">
+                  <img src="assets/img/01_Korean Hair Claw Clips Collection/P2_Vanilla Cloud Claw Clip/side1.png" alt="Velvet Dew Serum view 1" loading="lazy">
+                </div>
+                <div class="product-slider__slide">
+                  <img src="assets/img/01_Korean Hair Claw Clips Collection/P2_Vanilla Cloud Claw Clip/side2.png" alt="Velvet Dew Serum view 2" loading="lazy">
+                </div>
+                <div class="product-slider__slide">
+                  <img src="assets/img/01_Korean Hair Claw Clips Collection/P2_Vanilla Cloud Claw Clip/side3.png" alt="Velvet Dew Serum view 3" loading="lazy">
+                </div>
+              </div>
+              <button class="product-slider__arrow product-slider__arrow--prev" data-prev aria-label="Previous image">‹</button>
+              <button class="product-slider__arrow product-slider__arrow--next" data-next aria-label="Next image">›</button>
+              <div class="product-slider__dots" data-dots></div>
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Velvet Dew Serum</h3>
+              <p class="product-card__desc">Niacinamide + snail mucin for glass-skin luminosity in one drop.</p>
+              <p class="product-card__price" data-price="42">$42.00</p>
+              <button class="btn btn--buy" data-buy data-name="Velvet Dew Serum" data-image="assets/img/01_Korean Hair Claw Clips Collection/P2_Vanilla Cloud Claw Clip/side1.png" data-price-val="42">Buy Now</button>
+            </div>
+          </article>
+
+          <!-- Product 3 -->
+          <article class="product-card glass fade-up" data-product>
+            <div class="product-slider" data-slider>
+              <div class="product-slider__track">
+                <div class="product-slider__slide is-active">
+                  <img src="assets/img/02_Press-On Nails Collection/p3_Honey Glazed Press-On Nails/side1.png" alt="Sun-Kissed SPF Mist view 1" loading="lazy">
+                </div>
+                <div class="product-slider__slide">
+                  <img src="assets/img/02_Press-On Nails Collection/p3_Honey Glazed Press-On Nails/side2.png" alt="Sun-Kissed SPF Mist view 2" loading="lazy">
+                </div>
+                <div class="product-slider__slide">
+                  <img src="assets/img/02_Press-On Nails Collection/p3_Honey Glazed Press-On Nails/side3.png" alt="Sun-Kissed SPF Mist view 3" loading="lazy">
+                </div>
+              </div>
+              <button class="product-slider__arrow product-slider__arrow--prev" data-prev aria-label="Previous image">‹</button>
+              <button class="product-slider__arrow product-slider__arrow--next" data-next aria-label="Next image">›</button>
+              <div class="product-slider__dots" data-dots></div>
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Sun-Kissed SPF Mist</h3>
+              <p class="product-card__desc">SPF 50+ invisible mist — reapply over makeup, zero white cast.</p>
+              <p class="product-card__price" data-price="34">$34.00</p>
+              <button class="btn btn--buy" data-buy data-name="Sun-Kissed SPF Mist" data-image="assets/img/02_Press-On Nails Collection/p3_Honey Glazed Press-On Nails/side1.png" data-price-val="34">Buy Now</button>
+            </div>
+          </article>
+
+          <!-- Product 4 -->
+          <article class="product-card glass fade-up" data-product>
+            <div class="product-slider" data-slider>
+              <div class="product-slider__track">
+                <div class="product-slider__slide is-active">
+                  <img src="assets/img/02_Press-On Nails Collection/p4_Lemon Milk Press-On Nails/side1.png" alt="Peach Blur Cushion view 1" loading="lazy">
+                </div>
+                <div class="product-slider__slide">
+                  <img src="assets/img/02_Press-On Nails Collection/p4_Lemon Milk Press-On Nails/side2.png" alt="Peach Blur Cushion view 2" loading="lazy">
+                </div>
+                <div class="product-slider__slide">
+                  <img src="assets/img/02_Press-On Nails Collection/p4_Lemon Milk Press-On Nails/side3.png" alt="Peach Blur Cushion view 3" loading="lazy">
+                </div>
+              </div>
+              <button class="product-slider__arrow product-slider__arrow--prev" data-prev aria-label="Previous image">‹</button>
+              <button class="product-slider__arrow product-slider__arrow--next" data-next aria-label="Next image">›</button>
+              <div class="product-slider__dots" data-dots></div>
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Peach Blur Cushion</h3>
+              <p class="product-card__desc">Skin-like coverage with a soft-focus peachy finish.</p>
+              <p class="product-card__price" data-price="38">$38.00</p>
+              <button class="btn btn--buy" data-buy data-name="Peach Blur Cushion" data-image="assets/img/02_Press-On Nails Collection/p4_Lemon Milk Press-On Nails/side1.png" data-price-val="38">Buy Now</button>
+            </div>
+          </article>
+
+          <!-- Product 5 -->
+          <article class="product-card glass fade-up" data-product>
+            <div class="product-slider" data-slider>
+              <div class="product-slider__track">
+                <div class="product-slider__slide is-active">
+                  <img src="assets/img/03_Liquid Blush  Lip Tint Collection/p5_Peach Glow Lip Tint/side1.png" alt="Golden Hour Lip Oil view 1" loading="lazy">
+                </div>
+                <div class="product-slider__slide">
+                  <img src="assets/img/03_Liquid Blush  Lip Tint Collection/p5_Peach Glow Lip Tint/side2.png" alt="Golden Hour Lip Oil view 2" loading="lazy">
+                </div>
+                <div class="product-slider__slide">
+                  <img src="assets/img/03_Liquid Blush  Lip Tint Collection/p5_Peach Glow Lip Tint/side3.png" alt="Golden Hour Lip Oil view 3" loading="lazy">
+                </div>
+              </div>
+              <button class="product-slider__arrow product-slider__arrow--prev" data-prev aria-label="Previous image">‹</button>
+              <button class="product-slider__arrow product-slider__arrow--next" data-next aria-label="Next image">›</button>
+              <div class="product-slider__dots" data-dots></div>
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Golden Hour Lip Oil</h3>
+              <p class="product-card__desc">Sheer gold shimmer oil — pillowy lips, zero stickiness.</p>
+              <p class="product-card__price" data-price="22">$22.00</p>
+              <button class="btn btn--buy" data-buy data-name="Golden Hour Lip Oil" data-image="assets/img/03_Liquid Blush  Lip Tint Collection/p5_Peach Glow Lip Tint/side1.png" data-price-val="22">Buy Now</button>
+            </div>
+          </article>
+
+          <!-- Product 6 -->
+          <article class="product-card glass fade-up" data-product>
+            <div class="product-slider" data-slider>
+              <div class="product-slider__track">
+                <div class="product-slider__slide is-active">
+                  <img src="assets/img/03_Liquid Blush  Lip Tint Collection/p6_Golden Blush Cream/side1.png" alt="Cloud Soft Moisturizer view 1" loading="lazy">
+                </div>
+                <div class="product-slider__slide">
+                  <img src="assets/img/03_Liquid Blush  Lip Tint Collection/p6_Golden Blush Cream/side2.png" alt="Cloud Soft Moisturizer view 2" loading="lazy">
+                </div>
+                <div class="product-slider__slide">
+                  <img src="assets/img/03_Liquid Blush  Lip Tint Collection/p6_Golden Blush Cream/side3.png" alt="Cloud Soft Moisturizer view 3" loading="lazy">
+                </div>
+              </div>
+              <button class="product-slider__arrow product-slider__arrow--prev" data-prev aria-label="Previous image">‹</button>
+              <button class="product-slider__arrow product-slider__arrow--next" data-next aria-label="Next image">›</button>
+              <div class="product-slider__dots" data-dots></div>
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Cloud Soft Moisturizer</h3>
+              <p class="product-card__desc">Whipped ceramide cream that melts in for 72hr hydration.</p>
+              <p class="product-card__price" data-price="36">$36.00</p>
+              <button class="btn btn--buy" data-buy data-name="Cloud Soft Moisturizer" data-image="assets/img/03_Liquid Blush  Lip Tint Collection/p6_Golden Blush Cream/side1.png" data-price-val="36">Buy Now</button>
+            </div>
+          </article>
+
+          <!-- Product 7 -->
+          <article class="product-card glass fade-up" data-product>
+            <div class="product-slider" data-slider>
+              <div class="product-slider__track">
+                <div class="product-slider__slide is-active">
+                  <img src="assets/img/04_Satin Scrunchies  Hair Bows Collection/p7_Vanilla Satin Scrunchie/side1.png" alt="Rice Glow Toner view 1" loading="lazy">
+                </div>
+                <div class="product-slider__slide">
+                  <img src="assets/img/04_Satin Scrunchies  Hair Bows Collection/p7_Vanilla Satin Scrunchie/side2.png" alt="Rice Glow Toner view 2" loading="lazy">
+                </div>
+                <div class="product-slider__slide">
+                  <img src="assets/img/04_Satin Scrunchies  Hair Bows Collection/p7_Vanilla Satin Scrunchie/side3.png" alt="Rice Glow Toner view 3" loading="lazy">
+                </div>
+              </div>
+              <button class="product-slider__arrow product-slider__arrow--prev" data-prev aria-label="Previous image">‹</button>
+              <button class="product-slider__arrow product-slider__arrow--next" data-next aria-label="Next image">›</button>
+              <div class="product-slider__dots" data-dots></div>
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Rice Glow Toner</h3>
+              <p class="product-card__desc">Fermented rice water essence for instant clarity & bounce.</p>
+              <p class="product-card__price" data-price="30">$30.00</p>
+              <button class="btn btn--buy" data-buy data-name="Rice Glow Toner" data-image="assets/img/04_Satin Scrunchies  Hair Bows Collection/p7_Vanilla Satin Scrunchie/side1.png" data-price-val="30">Buy Now</button>
+            </div>
+          </article>
+
+          <!-- Product 8 -->
+          <article class="product-card glass fade-up" data-product>
+            <div class="product-slider" data-slider>
+              <div class="product-slider__track">
+                <div class="product-slider__slide is-active">
+                  <img src="assets/img/04_Satin Scrunchies  Hair Bows Collection/p8_Butter Bow Hair Clip/side1.png" alt="Yellow Aura Eye Cream view 1" loading="lazy">
+                </div>
+                <div class="product-slider__slide">
+                  <img src="assets/img/04_Satin Scrunchies  Hair Bows Collection/p8_Butter Bow Hair Clip/side2.png" alt="Yellow Aura Eye Cream view 2" loading="lazy">
+                </div>
+                <div class="product-slider__slide">
+                  <img src="assets/img/04_Satin Scrunchies  Hair Bows Collection/p8_Butter Bow Hair Clip/side3.png" alt="Yellow Aura Eye Cream view 3" loading="lazy">
+                </div>
+              </div>
+              <button class="product-slider__arrow product-slider__arrow--prev" data-prev aria-label="Previous image">‹</button>
+              <button class="product-slider__arrow product-slider__arrow--next" data-next aria-label="Next image">›</button>
+              <div class="product-slider__dots" data-dots></div>
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Yellow Aura Eye Cream</h3>
+              <p class="product-card__desc">Caffeine + vitamin C to brighten dark circles & depuff.</p>
+              <p class="product-card__price" data-price="40">$40.00</p>
+              <button class="btn btn--buy" data-buy data-name="Yellow Aura Eye Cream" data-image="assets/img/04_Satin Scrunchies  Hair Bows Collection/p8_Butter Bow Hair Clip/side1.png" data-price-val="40">Buy Now</button>
+            </div>
+          </article>
+
+          <!-- Product 9 -->
+          <article class="product-card glass fade-up" data-product>
+            <div class="product-slider" data-slider>
+              <div class="product-slider__track">
+                <div class="product-slider__slide is-active">
+                  <img src="assets/img/05_Vintage Brooch Pins Collection/p9_Daisy Pearl Brooch/side1.png" alt="Silk Finish Setting Spray view 1" loading="lazy">
+                </div>
+                <div class="product-slider__slide">
+                  <img src="assets/img/05_Vintage Brooch Pins Collection/p9_Daisy Pearl Brooch/side2.png" alt="Silk Finish Setting Spray view 2" loading="lazy">
+                </div>
+                <div class="product-slider__slide">
+                  <img src="assets/img/05_Vintage Brooch Pins Collection/p9_Daisy Pearl Brooch/side3.png" alt="Silk Finish Setting Spray view 3" loading="lazy">
+                </div>
+              </div>
+              <button class="product-slider__arrow product-slider__arrow--prev" data-prev aria-label="Previous image">‹</button>
+              <button class="product-slider__arrow product-slider__arrow--next" data-next aria-label="Next image">›</button>
+              <div class="product-slider__dots" data-dots></div>
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Silk Finish Setting Spray</h3>
+              <p class="product-card__desc">Fine mist locks makeup for 16hrs with a satin—not matte—glow.</p>
+              <p class="product-card__price" data-price="26">$26.00</p>
+              <button class="btn btn--buy" data-buy data-name="Silk Finish Setting Spray" data-image="assets/img/05_Vintage Brooch Pins Collection/p9_Daisy Pearl Brooch/side1.png" data-price-val="26">Buy Now</button>
+            </div>
+          </article>
+
+          <!-- Product 10 -->
+          <article class="product-card glass fade-up" data-product>
+            <div class="product-slider" data-slider>
+              <div class="product-slider__track">
+                <div class="product-slider__slide is-active">
+                  <img src="assets/img/05_Vintage Brooch Pins Collection/p10_Golden Ribbon Brooch/side1.png" alt="Butter Balm Mask view 1" loading="lazy">
+                </div>
+                <div class="product-slider__slide">
+                  <img src="assets/img/05_Vintage Brooch Pins Collection/p10_Golden Ribbon Brooch/side2.png" alt="Butter Balm Mask view 2" loading="lazy">
+                </div>
+                <div class="product-slider__slide">
+                  <img src="assets/img/05_Vintage Brooch Pins Collection/p10_Golden Ribbon Brooch/side3.png" alt="Butter Balm Mask view 3" loading="lazy">
+                </div>
+              </div>
+              <button class="product-slider__arrow product-slider__arrow--prev" data-prev aria-label="Previous image">‹</button>
+              <button class="product-slider__arrow product-slider__arrow--next" data-next aria-label="Next image">›</button>
+              <div class="product-slider__dots" data-dots></div>
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Butter Balm Mask</h3>
+              <p class="product-card__desc">Overnight sleeping mask with shea & squalane for baby skin.</p>
+              <p class="product-card__price" data-price="32">$32.00</p>
+              <button class="btn btn--buy" data-buy data-name="Butter Balm Mask" data-image="assets/img/05_Vintage Brooch Pins Collection/p10_Golden Ribbon Brooch/side1.png" data-price-val="32">Buy Now</button>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <div class="section__header fade-up">
+          <p class="section__eyebrow">Real Reviews</p>
+          <h2 class="section__title">Girls who <em>glow</em></h2>
+        </div>
+        <div class="testimonials__grid">
+          <blockquote class="testimonial glass fade-up">
+            <div class="testimonial__stars" aria-label="5 stars">★★★★★</div>
+            <p>"Literally my entire routine now. The Velvet Dew Serum gave me glass skin in two weeks — my Pinterest board is jealous."</p>
+            <footer>
+              <cite>— Mina K., Seoul</cite>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial glass fade-up fade-up--delay">
+            <div class="testimonial__stars" aria-label="5 stars">★★★★★</div>
+            <p>"Packaging is SO aesthetic. Butter yellow everything. Bought the Cloud Care set for my bestie and she cried."</p>
+            <footer>
+              <cite>— Zoe L., Los Angeles</cite>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial glass fade-up fade-up--delay-2">
+            <div class="testimonial__stars" aria-label="5 stars">★★★★★</div>
+            <p>"SPF mist over makeup is a game changer. No white cast, smells like peaches. Gen Z approved fr."</p>
+            <footer>
+              <cite>— Aria T., London</cite>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery section" id="gallery">
+      <div class="container">
+        <div class="section__header fade-up">
+          <p class="section__eyebrow">@yellowvibes.beauty</p>
+          <h2 class="section__title">Pinterest <em>mood</em></h2>
+        </div>
+        <div class="gallery__grid fade-up">
+          <a href="#" class="gallery__item gallery__item--tall" aria-label="Gallery image 1">
+            <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=500&q=80" alt="Beauty flatlay" loading="lazy">
+            <span class="gallery__overlay">♡ Save</span>
+          </a>
+          <a href="#" class="gallery__item" aria-label="Gallery image 2">
+            <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=500&q=80" alt="Skincare routine" loading="lazy">
+            <span class="gallery__overlay">♡ Save</span>
+          </a>
+          <a href="#" class="gallery__item" aria-label="Gallery image 3">
+            <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=500&q=80" alt="Soft glam" loading="lazy">
+            <span class="gallery__overlay">♡ Save</span>
+          </a>
+          <a href="#" class="gallery__item gallery__item--wide" aria-label="Gallery image 4">
+            <img src="https://images.unsplash.com/photo-1515377901643-4c2f9e4c4c8e?w=800&q=80" alt="Yellow aesthetic" loading="lazy">
+            <span class="gallery__overlay">♡ Save</span>
+          </a>
+          <a href="#" class="gallery__item" aria-label="Gallery image 5">
+            <img src="https://images.unsplash.com/photo-1612817288484-6f91600611a5?w=500&q=80" alt="Serum dropper" loading="lazy">
+            <span class="gallery__overlay">♡ Save</span>
+          </a>
+          <a href="#" class="gallery__item gallery__item--tall" aria-label="Gallery image 6">
+            <img src="https://images.unsplash.com/photo-1570554887631-986d1850d644?w=500&q=80" alt="Clean girl morning" loading="lazy">
+            <span class="gallery__overlay">♡ Save</span>
+          </a>
+          <a href="#" class="gallery__item" aria-label="Gallery image 7">
+            <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?w=500&q=80" alt="Product shelfie" loading="lazy">
+            <span class="gallery__overlay">♡ Save</span>
+          </a>
+          <a href="#" class="gallery__item" aria-label="Gallery image 8">
+            <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=500&q=80" alt="Face mask moment" loading="lazy">
+            <span class="gallery__overlay">♡ Save</span>
+          </a>
+        </div>
+        <p class="gallery__cta fade-up">
+          <a href="#" class="btn btn--glass">Follow on Instagram</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="assets/logo/logo.svg" alt="Yellow Vibes" width="140" height="36">
+        <p>Soft Korean beauty for your yellow era. Glow responsibly.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="#products">All Products</a></li>
+          <li><a href="#collections">Collections</a></li>
+          <li><a href="#products">Bestsellers</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Brand</h4>
+        <ul>
+          <li><a href="#about">Our Story</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Pinterest</a></li>
+          <li><a href="#">TikTok</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <p>&copy; 2026 Yellow Vibes. All rights reserved.</p>
+      <p class="footer__tag">Made with ♡ for soft girls everywhere</p>
+    </div>
+  </footer>
+
+  <!-- Buy Now Modal -->
+  <div class="modal" id="buyModal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__box glass">
+      <button class="modal__close" data-close aria-label="Close checkout">&times;</button>
+      <div class="modal__inner">
+        <div class="modal__product">
+          <img id="modalImage" src="" alt="" width="280" height="280">
+        </div>
+        <div class="modal__form">
+          <h2 id="modalTitle" class="modal__title">Product Name</h2>
+          <p class="modal__price" id="modalPrice">$0.00</p>
+          <p class="modal__total">Total: <strong id="modalTotal">$0.00</strong></p>
+
+          <label class="modal__label">Quantity</label>
+          <div class="qty">
+            <button type="button" class="qty__btn" id="qtyMinus" aria-label="Decrease quantity">−</button>
+            <span class="qty__value" id="qtyValue">1</span>
+            <button type="button" class="qty__btn" id="qtyPlus" aria-label="Increase quantity">+</button>
+          </div>
+
+          <label class="modal__label" for="modalEmail">Email</label>
+          <input type="email" id="modalEmail" class="modal__input" placeholder="you@email.com" required>
+
+          <label class="modal__label" for="modalAddress">Shipping Address</label>
+          <textarea id="modalAddress" class="modal__input modal__textarea" rows="3" placeholder="Street, city, zip, country" required></textarea>
+
+          <button type="button" class="btn btn--primary btn--full" id="paymentBtn">Proceed to Payment</button>
+          <p class="modal__note">Official payment gateway coming soon.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
